@@ -43,14 +43,15 @@
             <div class="logo" id="home">
                 <a href="#home">start bootstrap</a>
             </div> <!-- ./logo -->
-            <input type="checkbox" id="chk">
-            <label for="chk" class="label-toggle"><i class="fa fa-bars"></i></label>
-            <ul>
-                <li><a href="#about">about</a></li>
-                <li><a href="#services">services</a></li>
-                <li><a href="#portfolio">portfolio</a></li>
-                <li><a href="#contact">contact</a></li>
-            </ul>
+
+            <div class="toggle" onclick="toggleMenu();"></div>
+
+            <ul class="menu">
+                <li><a href="#about" onclick="toggleMenu();">about</a></li>
+                <li><a href="#services" onclick="toggleMenu();">services</a></li>
+                <li><a href="#portfolio" onclick="toggleMenu();">portfolio</a></li>
+                <li><a href="#contact" onclick="toggleMenu();">contact</a></li>
+            </ul> <!-- ./menu -->
         </nav> <!-- ./nav-bar -->
         <!-- TODO: End nav bar -->
         <div class="hero">
