@@ -1,0 +1,20 @@
+.go-to-top {
+  padding: 15px;
+  border-radius: 50%;
+  background-color: var(--main-color);
+  cursor: pointer;
+  position: fixed;
+  right: 2%;
+  bottom: 5%;
+  display: none;
+  transition: all 0.3s ease-in;
+  z-index: 999999999999;
+}
+
+.go-to-top.block {
+  display: block;
+}
+
+.go-to-top a {
+  color: white;
+}
